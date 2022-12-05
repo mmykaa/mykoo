@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "GameCore/Entities/Player/PlayerBehaviour.h"
+#include "PlayerBehaviour.h"
 
 // Sets default values
 APlayerBehaviour::APlayerBehaviour()
@@ -29,6 +29,11 @@ void APlayerBehaviour::Tick(float DeltaTime)
 void APlayerBehaviour::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
+
+}
+
+void APlayerBehaviour::MoveInput(const FInputActionValue& Value)
+{
 
 }
 

@@ -47,7 +47,7 @@ public:
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Input Mapping")
 		UInputAction* JumpAction;
-
+	
 
 	void MoveInput(const FInputActionValue& Value);
 
